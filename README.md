@@ -1,6 +1,3 @@
-# abdulguvi
-<!-- Copy and paste the converted output. -->
-
 <!-----
 
 You have some errors, warnings, or alerts. If you are using reckless mode, turn it off to see inline alerts.
@@ -8,7 +5,7 @@ You have some errors, warnings, or alerts. If you are using reckless mode, turn 
 * WARNINGs: 0
 * ALERTS: 25
 
-Conversion time: 4.737 seconds.
+Conversion time: 3.408 seconds.
 
 
 Using this Markdown file:
@@ -21,7 +18,7 @@ Using this Markdown file:
 Conversion notes:
 
 * Docs to Markdown version 1.0β34
-* Sun Dec 25 2022 06:57:07 GMT-0800 (PST)
+* Sun Dec 25 2022 07:05:51 GMT-0800 (PST)
 * Source doc: Assessment Task
 * This document has images: check for >>>>>  gd2md-html alert:  inline image link in generated source and store images to your server. NOTE: Images in exported zip file from Google Docs may not appear in  the same order as they do in your doc. Please check the images!
 
@@ -94,7 +91,7 @@ Tools Needed : GIT,Jenkins,Docker Hub,AWS EC2 instance(ubuntu)
 <p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: Definition &darr;&darr; outside of definition list. Missing preceding term(s)? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-:1.Created java code for the **web application**
+:1.Created java code for the **web application.**
 
 .
 
