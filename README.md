@@ -27,35 +27,33 @@ Tools Needed : GIT,Jenkins,Docker Hub,AWS EC2 instance(ubuntu)
 
 ### Solution
 
-:1.Created java code for the **web application.**
+1.Created java code for the **web application.**
 
-.
-
-![](https://lh3.googleusercontent.com/nIkCO653ej94Fbt_cFRKTGq0qHzTbaEcwTsWwrFnr9r2yOX7h3Q6UZ52I8h-qFCqJhA0dVwNwth3tqeY40yyLego0ViyfXNONp_yWvaMKy5aj23a7ecXyJsiHk7uuwLEPW5JgOthJkoUl6TnKoulN8ev94NkWzKRwJhk5H-1CKwC7ceM1E96iJUErtHvGg)
+![](https://lh3.googleusercontent.com/DYO9YQLNwWJqpz35P_uPGwPYX4HG217V540wSkWBAFs0euwejKWyKaR4Zy9RpH3Bq3YE615P8atA-gHkuv9WehLpUd2SWqzoZnmHqyRA6DPf4NE0ORnFz8yX0bRifRF53foOo-TMGjbJTnDaBUv7bXfqgbgMuoSutF1hj2smbtW9k6qbcJiFVvlmbZsWfg)
 
 2.Created **index.html**
 
-**![](https://lh4.googleusercontent.com/-sW-rLt8fyulslQ16Ex8IYmwwpZ92Lt9zWNdmsE9hBau619obeWF0Uy4TfUjRdLbUnUmO6y3Q66Wku-f7YM9on5sqO81AOGT1BKFxeNeFgnwF3p5Haw0vGs2swsei_gpIH8qlu6M8cKXhbsOrbEXTmYMELjrH2pPqxsqHpJnDSiTTQ07X7H4jlYdBID_PA)**
+**![](https://lh6.googleusercontent.com/rx6tGqkDR9oLjfVh2lbQJJkTUBg9lrKyRrBI2sAPDRFQINSq4Ds_4Mm5aIWsAOpenHKfxv0VKAARSDLDGNu7oLpwrSg1_3AwjVOizufzQCS7BWtZQ3IYx6PS5zqwkyxv8pCCMrbdGjHPeGQDIexqYplfFsI710-7DdZ3Ki23Zat1Z-NoHp49Y3RZw2Esjw)**
 
 3.Created** Dockerfile**
 
-**![](https://lh4.googleusercontent.com/N4Jzoufg9rkCZOW0MzmW3dODbvZpzdW16tbkMR3jPnOAbLfOGiQmpP0DlSFKAuPzYHkRjooHRVrcySwkn8bOi9jIXTuHPX6THv5emb3Pi7A4WOHzZD0tbqmDQGDRyobnPrDzD-s90GW4IFRVQtTsDMaUAKYpy0cL4dISfbw7hXWaNnO0Y1M1Yp7DE8Bo4g)**
+**![](https://lh5.googleusercontent.com/FxiVmxzrinG2FBipO04Rpg83Sz-wDfOR4L8a8iiTzOPxKlPv1pmBvUSKCuD9FGwVzilYUqvh1kwnTJav54i90a3nwM6kr1q38uO5iYStTsx6ki9EC38_R8eWHYlxuft_-WBfhpMfDg91mee93qo4Yv_KjXPRwgu7htgx_F_mUPYCsEy727f71yA53BNwJA)**
 
 4.Created** jenkins file, **we are using groovy script for executing the commands.
 
-![](https://lh4.googleusercontent.com/zXQzfhmdx_3S2ep_oSFPxttXuifLHUB5lkTkd-Dq7bQxcBy9asQ6prNcpeuBT6xBiUwrbHMM21-uZYM_6XrUbP_YUW0BjPbc66Ws3d0BvKn9CPNVrxiLfbJj2ww_w3O1tLOhGeyKSk2mcLJMi75UvMDWKNpmgm-S5r65LTzS0V-crD37fuwOBosu-NDCRQ)
+![](https://lh3.googleusercontent.com/tClMRW9DQyE5viJ2j6vgL9Pc_I0RBY1BEcxl2BffLUMYM5ewPYumx5d0mgRwvWTbOc9M_KO1UEDiKQMOHp6ypb5MAhn06okQI4nY8tqVMUGQ1e4NK-FOAOUXCVYxkgnfDIdiEw9hD95CDSW4cahyMoBZogWwZDLByjQ_qFyae0r9AdriqRUvQv221PPh9w)
 
 5.Created **script.groovy**
 
   
 
 
-**![](https://lh4.googleusercontent.com/ux5QipXLoM6FEr_PdhBZIvTzAGTq9Q9Py3uknYsLjBRWGS2sNhbTpqI5_2esx__QUtFu9Nj1HMlnpHqtCLDasmaPEs0GsaZJAPEHs71uAdqO6ev3YlpSFRw9RWcS0Bc4xoSL8q1FOsYXRnp1Dd_58CAQBFoZFdc87dDsFCESzZDxXhA83_zBO0uVEHNj-Q)**
+**![](https://lh4.googleusercontent.com/66TOoLvmCFyFZApEnw5kyt7JIZlYKyyTvkvrMz1AonZodc8Cxnz6REEQScl_Ip-5Fa3Ka3FZ_c7RexS59dbkkPKOLd70uz-uMOPIXV5ywnmnzNEpwYlkJizzwjWodsw-dLk_oW_qb_8VaWc8zOtjnYKjyA8M70C-E4j9vQ64O8IAF9aHwfFJKfDT1RC0vA)**
 
   
 
 
-- In this script three stages there,
+- In this script three stages are there,
 - Build jar is to package the maven application
 - Build image is to build the docker image and by using the above command. We pushed the code into Docker Hub
 - Added docker credentials in the jenkins
@@ -69,7 +67,7 @@ Tools Needed : GIT,Jenkins,Docker Hub,AWS EC2 instance(ubuntu)
 
 By using git init,git add . ,git commit, git push. We pushed our code to the repository.
 
-![](https://lh5.googleusercontent.com/2Iv-Lv5Wk8HL6ggbc3zwT2_kLYFG5nynu4-8sE2jQQkyFHACSGjlpMpEl4iXQ7hZlI9KS6vPgVRDimLk4gFuiaQrGJRDndupHD9UxMs_KEdUa8OqfLa8FebHnO4l0r1DU-cXLPDpz49KIOdGl7ei-OB2zfWGbYccQQUROY4UjAVnnEQ-uwheLkiM_UOo5Q)
+![](https://lh6.googleusercontent.com/IOp5bdb6g2UVEFOFdvrPszyBMCiHkIJ0h7JQpb8Vz2IJK8nB2GCjPaLfuRVCP-yJlSOlsyRYI7ygnmwBjhbSl6zYb0xuBrlZF_PHQxRg_Qosh1aIAasE0i0Ki1i6gWlFD8D6_aohQJ8kBJZ1iQJLriplJFb-6JCJEKuz_VXdQzFwRjn7Mz0su-dmVfq7Rw)
 
   
   
@@ -85,7 +83,7 @@ By using git init,git add . ,git commit, git push. We pushed our code to the rep
   
 
 
-![](https://lh4.googleusercontent.com/PsXlVIFO1i_-Qov807aVYyXdPknL2C5YTxkhZw_wHuWgCe_BKFGr9v82VxsdqFjMpNN-w87H4dyA63emnbVZ_ZAqJFrpDUyavqQqdvPDoNbA8qZNLdVmN5LKqy3yEHz_OsObp6v096FrQ2LGQlQ9Kx7NhKyJPSdsG5IbMYs8XMYJje5b-4F83PT-W5L8XA)
+![](https://lh3.googleusercontent.com/VJRjwQwY3T53ah_GeDEGpDqTR4oKe8kILHRzgSoz9_SI7Eugf27oDRK5FLjFIxsRBfAa8AIEwvjdGTPc3CoWUu6EreAdQ1y9qXCxzODmVChukQ-blHxBCGU70_B3_c0O6Jna3MpG2TeawtXE0ymzPmgrxittJIniqhEYE-G4AyAgTpJF61kfKScp5hqniw)
 
  
 
@@ -93,7 +91,7 @@ By using git init,git add . ,git commit, git push. We pushed our code to the rep
 
  
 
-**![](https://lh5.googleusercontent.com/Gy3DWVBl_8x3LAYWj0Nw9zH5PrevbfctCIzNWwxjRzntNeOxyaAJBaTvjOvupwkiU_2HOxVBFRgHWH3a5GIsxT4Ke9rLkFzGXzYBN1Zc2p38mL2paBIN7uu4_s48uO8FxfxgQv3k9qdaV9-O1lcIqvaG-Ot7KKH3yuectUydXMt8YOXdyhwgYgqzr6G4Fg)**
+**![](https://lh4.googleusercontent.com/-M5k4sC3tWUmXWvHgY2O5abzwCWlJNxxa_-8dg6A2VfyruXG6UL1iYoYBYO6_vXxPqIaUJ61iOvxY3yHeONzAsgT9JIbBUm3wL91ka2vGqoK8Qh0FNJBIHz1SbIRSEXd9YhQHZKKCA5KFK9aDRiLtcKV6fYrJ9GmBhgOAF8mE8_1_ggx1nkjni2fu2LciQ)**
 
  
 
@@ -111,7 +109,7 @@ Instance name - kaderguvi
 
  
 
-![](https://lh4.googleusercontent.com/rbV5pHws7Xdn7q5b4ymyGNnKHUXWQ5DgeoU2WWZsOZygKLlc8G7kygigdeop8P7XAys3mlg097mBeeL54eoybT6zTLrGt5hxM-Dlg96SgquPpUR0DjCK7sFVsz29BHw9z7z5Zsxg8qayBKyEIiwHHBXV1iTIh2SQhWpmpjeZsPATG1BruoHjkFPnpfmevQ)
+![](https://lh5.googleusercontent.com/iugY5jZWJmm58pigwtRC1S1X0y8GqMfVGHvYDKLfqZ1cPrgc1J8rShEnxSeQaK4_JqP4MuqTS0-ryKmFYFNXT6JVuirZXPtuOmUgWxS52QvDyL3VDsJ2WNKJXejFCVRKSfT8wyallbjuZNkOwHQNezR8ZxvpCgkf0vExyVebWjd5rv5k0OMKwB5lw165WA)
 
 - We choose instance type based upon our needs.
 - Keypair is used to connect the instance through ssh from out local system.
@@ -120,11 +118,11 @@ Instance name - kaderguvi
 
  
 
-![](https://lh4.googleusercontent.com/fApa_yv0Dcmd2irf109RmhCXIfReZBsp6iP1EVxedfA-Clx9_9jv8lDhQlqW_Lk4jDHRa_TfO9s8Tgm6aIJcwU_xL_njaFijnFBIHz4W0e0UwSYq-P_h3UdPwPu5vn6nOMd7wXvjOYD1PTZ3nPrGsW68eC9iDIDzqX3UeoBPFu6cP13Zd2G8X5hgp-wbmg)
+![](https://lh4.googleusercontent.com/5BtWr6QWLhHXyekGAO2jtIDn833afh4gosX6ENImOAFCckCrVSq9F12CQasY-9lOFTrG-kMHl4h-e_wGYdvR_2N_PXohliNieNjFliCZ4MjJmPjMrZJLJfpfyqBuvK0HBJ8GNbUi_IpQlXo9y8iFAV6QN952z_iTDk5uY8_RAjWSoFc7tBSsoJ5QFlQcSA)
 
  
 
-3.connected instance through the **aws instance connect**
+4.connected instance through the **aws instance connect**
 
 On another way we can connect our instance through ssh in our local system by using the created key pair. 
 
@@ -132,7 +130,7 @@ cmd - **Ssh -i /kader.pem ubuntu@instance public ip**
 
  
 
-**![](https://lh5.googleusercontent.com/QMyaXEL4d7c01zpZRdnTPIpX6hkAM5lgWQRgPsbbHvThxG60PMMhyoWh8PQraRbxJlEVJTabr4QcYKiQz2xZOe1ledaiDHvxR8JqgHzC4bAFAmo_Sg1yXJfkLQzk4akqD2_l6XVUHNS5mciqAaGSqQ7s_-2XI37n-g5aStrTxecwuoKq6KYbQQ9zD4QbOg)**
+**![](https://lh3.googleusercontent.com/5kpAFvosZXjctc-BunDKsNsxmeWafHwLu2wLOApMm_eujfygTLYRckQcMg-p3FxBs1e6WXp5BaHuMJXm1O-3a4Ao_3_f2E6iT9HRXeauA5l1k8TJzOyr251pVISyGvbk-wbxupJlf4EAgyVtTgxkIUeKoMKK3mH2VM9c-MZvUSZwvRe7PFOMsQukR90Z_g)**
 
  
 
@@ -142,7 +140,7 @@ cmd - **Ssh -i /kader.pem ubuntu@instance public ip**
 
 **           sudo apt update**
 
-**![](https://lh5.googleusercontent.com/AUsKHjsJva0Nd1voAW5BA2qTjIJXETrEERRwcetn7OV4n5BF7DYqph1-936vVpl7gWLIJ5fizBF8Oj_r2waTYk7UmNG7WkV_1MPwOe3DMdpzClUbTt8a73cOpmx88G5VIfruvuvOfiY36lkGOQm7n4t8xQCbheEblzcnFfxwH7jCZibpAIk2VdUmYrJKoQ)**
+**![](https://lh4.googleusercontent.com/eaOqynoHa5hyi4_YJAFYuORgAZUoKdNxU7EBXGrfVSRFXVVJO4ZWqOV9lCUvVpaaUIo-QG1BOd7P-FO9yuoR_jC9lLH1wLgh-CpSwerU9pGdYR4li0TSvIgPH8RdB5VdK31j2c9wd0QCg67n3ztouUlCNYghUPUmRe5Twd4jAwB1bY_bvml0fyWSvBT9FQ)**
 
 2\. To install OpenJDK 11, run:
 
@@ -170,7 +168,7 @@ cmd - **Ssh -i /kader.pem ubuntu@instance public ip**
 
 7.To check if Jenkins is installed and** running**
 
-![](https://lh6.googleusercontent.com/-VoGmR_4SzzS39eucFO4iJqq2aSk7KbbIES1ks1H_HkJjz7KXwqlLObENyOqmkZfHyrVY9efvj4kWBll7r2SmfhUvOCpYxsCav3b0MkMvfM87cmoa_ISWX6AwvVKLNSfU5_MYnJ55TN_tMpKPnxIXCOz8nshofznXlXKCxKD41Ik7gsqAqBc109FUMxUKQ)
+![](https://lh6.googleusercontent.com/zDqjouxxycfKIaA5omv3am8Qh1Leym0bacDBhO26EU8Nu5_T5owfO15BBd-olX3hbt_Y9QWQkWdAQA8BUlklT8cJrvYxJUFQjWDxuubL3L6fwSlF7UWjGc-uY8hrT3wXCrxpRtLRL1Zg7FjjIjHerYKeVI1q8PffUqlOJ6ujVfa-gFWWtRkm9J3N2l-1Zw)
 
 **sudo systemctl status jenkins**
 
@@ -186,7 +184,7 @@ Above used to check the status of the jenkins.
 
  
 
-![](https://lh6.googleusercontent.com/te-rcHjCsV8NSykVCw61haKQrkvcqGutLHB_JBomj1sP7rHxBvjwi5bHO-NQyR7F-eb7UJAZ47pB0hMtzEdfJTCEswTq0dS08A5gchwiiNDVNU8-3pEHT2gW3ETjMyQ6qEIpJYxwaxvreFnFFsSGc51dACRvdcnk-0xzzt6Vp_hdqs9KteCEhzVVnPNmeQ)
+![](https://lh6.googleusercontent.com/OTGtkcY7_fTS8y9IxT_RB36cw5ckCiXi70n4oVHMpRpL3EKvwVv183s-VA9HqwLBD32yBmZ3o6GZg4JZbOZxWuAiF5wSmer7BGRnL_NSDsmxWnGCvSTMCJwVzCNvoxfhZKw5h7R8v_klEqvzqpdGrNnKINQkZaR_LAM61xMuq78-wBRst9wk-g_b5Vc0RQ)
 
  
 
@@ -198,7 +196,7 @@ And finally we opened **jenkins url page**
 
  
 
-**![](https://lh6.googleusercontent.com/EKU6FVYo8RHT3S5sdcFLat7cy8dEhjr7TRpPpxVPZR-_0oYZENwqJfx9dLVu09DHLYZdh1v22QESyJTPVs8JTG-4ZRejCmCTtOmehY1rEcaZSL7UtIapWahYwcZZ3md4vi4h75jRvnMx15Iw5MCAX-0Ev3RSLQa59TS--95afeR5BAE98U4OKqHD79xu6A)**
+**![](https://lh5.googleusercontent.com/3Vd_y8aSMR7_F27aRl7ZEDXAielFaphpBaVFrSlHr3VOFXCukFX_qaDErraaucGnd21tzyLJ3jsVVtmICv_7pwhpEzPmvyRxJXgYDiDgTiUomFTM4TjzirFb-wGu7iWpSNubX_PJIaDYSUBf5bQ8DBYTnWqU8vaAYtGKGRaxeX19kSYGmJeKLx-7fVXH5Q)**
 
  
 
@@ -212,7 +210,7 @@ And finally we opened **jenkins url page**
 
  
 
-![](https://lh6.googleusercontent.com/EDsJocLdJ-6iANPjvXb1kWVUHuQVNOR06HJ9OZQGl5p0FyXpnL1EhXwdubpWt3aktxMSJ1VTm4DwTAM9nq4wG0x5oQXr_JQ8iedftpBAZSEH2vVkdrTOgxMDBB1hmsUDcRHel4om7oXMXbyXzh-BgY5Zd0Bk7x4qAkh5KX0g6oSpJsGcXIcnjavPjOhlAQ)
+![](https://lh6.googleusercontent.com/p2-Bnf83igjCJMgvPtbHHj4XpJ1eXJpiX5y6JZLP010V_bU5SoURTImcvkmbDSooZpfRlA22j11awAg6JXIRzx6K5bivUgtf9IDHbHs7DVE_NC32LO1tFupsnWiYcsROqnv6VnbgjGF56U3INh9sE6OjW_WF8lbl3P5vYzCp2Cj4OI3Ch1obBWzyx0Z61A)
 
  
 
@@ -220,7 +218,7 @@ And finally we opened **jenkins url page**
 
  
 
-![](https://lh5.googleusercontent.com/2D1PdCwY-9wZ-I4eWhemjOHaI5nEJBb68xkEpdzPoBWZJLAIK3m7Q66mFm-Ln3NBoJQoYd_89FAUoNkblG42weDNapu3WmYWhElleIzf-dm3_-MLonbuPWCBxNtnAg8gE7OX1T5VAWpU5qRJD4v45929Ybhs3IQ7ytAE7qJe4u_149mOHPt8kAkhqzPN8w)
+![](https://lh6.googleusercontent.com/O4USW8EBuPmPiyK6_IEifyXkUtrzpVdeZRSq9-o5CazvhYLzrcoAQ17MQmVRJV8CaBVJ9ZSoMZmJl0iUNAcnwtm5rjId47sAJyZr79Wd-CFRQ-IzGx1cm437XEvmHz6aLmXozpclQyJoCdujmLWR8x0CcMHpNTgDKHOJF4StzmV2QqV61rO7uhTHc8G0pw)
 
  
 
@@ -230,7 +228,7 @@ And finally we opened **jenkins url page**
 
  
 
-**![](https://lh5.googleusercontent.com/0DpC8GCvPXndDzOJw2wqYlCuVrdc-0umt7CYwK7pAmzMGS73Jcjb0N2O2TAScW9SdaNN6XdHUaJBeijhaLYGmD_vlkIZGDbS0vJBQPxQNM5IWGZkQZ20LfpVmdkHOHhrJfMNIf56OEN6bvKZYYFQ4a2uRneB9SVr23e3AbSe3qn0PyU4GvEeQ5IRPsVGnQ)**
+**![](https://lh5.googleusercontent.com/9KKsce0n6celwcgYZduKBAT6AT5ZNeip1Qtg05UWiaF-se3sV8fp-jvUrOZcnkZBHdlPmVRMaDXgE8lZa89z5p9jIalezlPyX1_Q3syDWDYH0qNc5ya9wr2OXfencRMNb9FPT0pc7KKL2VXGSNfm3PmnbUMFpEdEK6ae4hLPVFXsLHe6POD0nngyJycCvw)**
 
  
 
@@ -242,9 +240,9 @@ And finally we opened **jenkins url page**
 
  
 
-4.added **Dcoker hub credentials** in the jenkins 
+4.added **Docker hub credentials** in the jenkins 
 
-![](https://lh6.googleusercontent.com/lYPssCKQ271FeZM3KEWKQpJ7tiB1bNEFHTFqXzYU_Y0K6KY-DhP0BWUmiidPQ-bIAWRJ3vrxFjngZg14seSLDJboB9aE54QwvH2NVuv2c_awT6FqoqBZJN5nb8gUNICIenSqX0pmjZUYB2nBKMgu2XNcUGWqS-iFloBfwl-QHTZ338Ral_FdyJQ_SQQOjw)
+![](https://lh3.googleusercontent.com/Kn2TcP6psZSP-Xbd8_SJSAP_-p0BgpTRZhpqHFpReqAgMOry2Q1GCaZb-dUn0wMwtYjWpTgPJ-5Jfw_ufpLWE0ktnq68jBLasiFn4sL1QjiNzFFm-pnxcRoGnNoiJoeyPsRzHk8S1jK95FVLVcZ9tRFAW8UDe-o3RpV89zsddJ_atIgM3IuCrUyAIWGppQ)
 
  
 
@@ -252,7 +250,7 @@ And finally we opened **jenkins url page**
 
  
 
-![](https://lh3.googleusercontent.com/Jn9rA8_Fgp9kx0g5blNL1j2FSblvV6fhbLc4Q5T_cXIUevRcnJAew62idaaTJoexVvZF1qSe4dBioHyFOy4wmVFuD0pOvwAXIsVYK_rIx_PM2wr1UxoWDNXvOheMgtG_O29I1-jX9alAYLGJLZogp8qAYv2hu1S5YCjYKMFXgnMkRd50qi-O2VvM6d2i9Q)
+![](https://lh4.googleusercontent.com/R3l6LHnl6oTDgp_R_qEvnBh59mLJ7LYNRPqOouDZykYyZx7gl1wI7mbyay63nn7Ao40wKcBU0Uz0J21O2XJkHiOF8XSubJ9S91b4xgYaa-BMU6WFcLAGjzSxlxWUwV6shH17auXiubU3x9yJ0_YnviYQvyic3I5ow_r9vw_NLkPZ-CQqAuqzIFUGv64Afw)
 
  
 
@@ -262,7 +260,7 @@ And finally we opened **jenkins url page**
 
  
 
-![](https://lh5.googleusercontent.com/E-hU2qlZo8FS__wySu4-qexkABUrr0G9XuO3Idr0HDTJkIwxJm8aj3AaLXfUj0hxnUdHaSvfzPMBqlwfOibrsLBs43YRbb2mTu6krXSQJsyLqO8ryr7C_2-v74gTJq9cIy0dt3F8YZvPClRu7Upn05mMYQAvwAB1zrt0cur9TNRhmKum-dJ8jVOFJHkXjg)
+![](https://lh3.googleusercontent.com/O0PQmakLGzdLv_XRymF-TXz6dIZYuaxnM_yHS05sL5hfKsuYzQj-bOd3SIkrY_z0nE2Q7ydc1pWNHI7sKjsOtK3Bf0lXIiNhaViCR-9lT3Ya49rqwbvgn-ohyJVvnKCUtohTBoYror5j-Vm7F3YIZAqL7mlSCNOqYh1XLT4zj9jSUr-9aQ7gQa4NKk6NvQ)
 
  
 
@@ -274,7 +272,7 @@ And finally we saw the result by running docker image locally
 
  
 
-![](https://lh5.googleusercontent.com/rkJxnNxSjVvw1TN4bGugBCZXfMvAliB7J61Ad_vIVXi-wGMzcHsnJxJ_B_CgtJaalnZ6qd3KIXGxJoURH7yY3GlErbzJdoPXKjkpFxpxkIajdpatoJIaUpQhrJvpMB4mBmAjoqpNiJZUi-c4gi2SLS2Ii4kxGYZLag6FBszJ1Taf0TupX5uuNK4rdvzrfg)
+![](https://lh3.googleusercontent.com/fb3UyyyAdRM3LErth43IIYv1CYUiuk77PY7ECprSyRN0dIo1d4f7TN57BnADJxHJVhPqdFnEwBWoDAM20dObrIUOnh_pEGZ5qr3WTJTSaS4AMxR_gOwnA6LwjvMjvoBGE1grSuzOBJuEF6tT99JjfuDWwZcnicfB55KJyH9Fg8RhFEHGsioL6miFW85rug)
 
 **Command used : docker run -p 8080:8080 -it abdulkader4513/guvi:latest**
 
@@ -286,7 +284,7 @@ Checking in the **chrome browser** to see the web page and finally result came a
 
  
 
-![](https://lh5.googleusercontent.com/P1Z1IfDHfDOOwaA5uhu2q6JgFVxMWmCqDji8Sgzgd_BD7eBb1Ct8eBOqbnDFg5Khnvmx5xbyn7MCAU6NKDmkSVST0Lwe8fz3KXmRuc2RHOs90g37fLdIqGvJvXZoWSBznxmD3UUGLYf8HtTCmlTEtsKfxCZvHhz0XRC-kq08iDT6Hmda_b9bWCaSHuTRFg)
+![](https://lh4.googleusercontent.com/psRUvWfVvt0I_0dmMPPiGwFfyjLN5qXxlfiTAta_DdnrfWFO7N9NMNIYs7wpEa-ZKYOnGCHJL6G2aR85oJQGminugof572-UHyq_bU8umnIb-t2bmc0USFT-CA8mtH4qDQc4tkzXMXEqcOskT6_QrJZfRlOLaLOduHMTlWIfXkKIVLa6N7R1mMA-dCF-XQ)
 
  
 
@@ -302,9 +300,6 @@ Checking in the **chrome browser** to see the web page and finally result came a
 
  
 
-![](https://lh3.googleusercontent.com/4ajNQl2V1hpWTpxZXD_nWUc_yPgEICdj-Ig6JpIehnfJZdta9gDZigQFmgZHMSgMdvQFuOJCe3klajDVKhCDTB4agp-HcWj7AJEx8_lsGuKRMerA1TR4eCoZ2Lj65ELx2O6CnZ6l7gM7l_uCC8OgyMvL_Hxo4svoNtMgm9oWSJeud4dmib0c9g6H6s-qYA)
-
- Docker Hub url : https://hub.docker.com/repository/docker/abdulkader4513/guvi
- 
+![](https://lh4.googleusercontent.com/lGP9yns0IP61AAVUKf5M-wjRR5DWPsjGVOCV5SsEUANT9HSKAZko9wKOgMBcJOPvITCu7LfIXWiZg4iJ7uea_Cda9rna1X2ZXk84OvPwiIU30WXMJHn-kwg0Lue1gHOd_-K0BaFIxmdhFC6l9M3J1sFbz8upqcg9PkShCn9otbZuKSRjU4cmWdabZyBwBw)
 
  
